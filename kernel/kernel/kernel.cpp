@@ -126,7 +126,7 @@ static void finish_auth_flow() {
     auth_flow = AUTH_FLOW_NONE;
     secret_length = 0;
     input_len = 0;
-    write("nexora> ");
+    write("blackbit> ");
 }
 
 static void begin_auth_flow(AuthFlow flow) {
@@ -326,7 +326,7 @@ static void launch_user_image(const u8* image, const u8* image_end, const char* 
     line(user_task_faulted ? "Kernel contained the ring-3 fault and reclaimed its pages." : "Ring-3 task exited through the syscall gate.");
 }
 
-static void prompt() { write("nexora> "); }
+static void prompt() { write("blackbit> "); }
 
 static void run_command() {
     input[input_len] = 0;
@@ -334,7 +334,7 @@ static void run_command() {
     if (equal(input, "help")) {
         line("Komutlar: help, about, clear, mem, alloc, uptime, userdemo, userfault, getallow, ember status, halt");
     } else if (equal(input, "about")) {
-        line("Nexora OS: BlackBit tabanli GRUB Multiboot2 x86 kernel prototipi.");
+        line("BlackBit: GRUB Multiboot2 x86 kernel prototipi.");
     } else if (starts_with(input, "getallow") && (input[8] == 0 || input[8] == ' ')) {
         getallow_command(input[8] ? input + 9 : "");
     } else if (equal(input, "ember status")) {
@@ -397,7 +397,7 @@ extern "C" void kernel_main(u32 magic, u32 multiboot_info) {
     const AuthStoreState auth_state = auth_init();
     interrupts_enable();
     clear();
-    line("Nexora OS");
+    line("BlackBit");
     line("BlackBit x86 kernel tabani");
     line("x86 Multiboot2 | IRQ keyboard | PIT 100 Hz | physical page allocator");
     line("Baslatildi. Yardim icin help yaz.");
@@ -416,3 +416,4 @@ extern "C" void kernel_main(u32 magic, u32 multiboot_info) {
         __asm__ volatile ("hlt");
     }
 }
+

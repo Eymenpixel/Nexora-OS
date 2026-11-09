@@ -5,7 +5,7 @@ Nexora OS is an early-stage operating system prototype by **Eymen Akgün**. It b
 ## How the projects fit together
 
 - **Nexora OS** is the overall operating system project and development workflow.
-- **BlackBit** is its bootable 32-bit x86 kernel. It boots through GRUB Multiboot2 and can be launched in QEMU.
+- **BlackBit** is a separate 32-bit x86 kernel project that Nexora can use as its kernel component. Its ISO boots and identifies as BlackBit, not as Nexora. It boots through GRUB Multiboot2 and can be launched in QEMU.
 - **Kaya** provides the `.kaya` package workflow. Its Kayp C++ tool handles package operations, while UST handles HTTP/HTTPS downloads.
 - **Nexora CLI** is a Linux/WSL host-side developer tool that brings kernel and Kaya commands together.
 
@@ -58,3 +58,4 @@ make run
 - `docs/` - project documentation.
 
 Only install `.kaya` packages from sources you trust. Package installation can execute package-provided actions.
+
