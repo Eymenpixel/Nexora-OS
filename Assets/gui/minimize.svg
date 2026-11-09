@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <!-- Dış Parlama -->
+  <circle cx="12" cy="12" r="9.5" fill="none" stroke="#ffffff" stroke-width="0.8" opacity="0.6" />
+  <!-- Ana Buton -->
+  <circle cx="12" cy="12" r="9" fill="#180b29" stroke="#eab308" stroke-width="2" />
+  <!-- Eksi Çizgisi -->
+  <line x1="8" y1="12" x2="16" y2="12" stroke="#eab308" stroke-width="2.5" stroke-linecap="round" />
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none">
+  <!-- Dış Parlama -->
+  <circle cx="12" cy="12" r="10.5" fill="none" stroke="#ffffff" stroke-width="0.8" opacity="0.5" />
+  
+  <!-- Ana Çerçeve ve Koyu Mor Dolgu -->
+  <circle cx="12" cy="12" r="10" fill="#180b29" stroke="#8b5cf6" stroke-width="1.8" />
+  
+  <!-- Döngü Çemberi -->
+  <path d="M20 12 A8 8 0 1 1 12 4" stroke="#22c55e" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Küçültülmüş ve Dengelenmiş Ok Ucu -->
+  <path d="M12 2V6L15.5 4Z" fill="#22c55e" stroke="#22c55e" stroke-width="0.8" stroke-linejoin="round" />
+</svg>

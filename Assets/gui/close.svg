@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <!-- Dış Parlama -->
+  <circle cx="12" cy="12" r="9.5" fill="none" stroke="#ffffff" stroke-width="0.8" opacity="0.6" />
+  <!-- Ana Buton -->
+  <circle cx="12" cy="12" r="9" fill="#180b29" stroke="#ef4444" stroke-width="2" />
+  <!-- Çarpı İşareti -->
+  <path d="M9 9L15 15M15 9L9 15" stroke="#ef4444" stroke-width="2" stroke-linecap="round" />
+</svg>

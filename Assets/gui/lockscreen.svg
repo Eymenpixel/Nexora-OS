@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none">
+  <!-- Dış Parlama -->
+  <circle cx="12" cy="12" r="10.5" fill="none" stroke="#ffffff" stroke-width="0.8" opacity="0.5" />
+  
+  <!-- Ana Çerçeve ve Koyu Mor Dolgu -->
+  <circle cx="12" cy="12" r="10" fill="#180b29" stroke="#8b5cf6" stroke-width="1.8" />
+  
+  <!-- Kilit Simgesi (Gövde) -->
+  <rect x="8" y="11" width="8" height="7" rx="1.5" fill="#180b29" stroke="#a78bfa" stroke-width="1.8" />
+  
+  <!-- Kilit Simgesi (Askı / Kelepçe Kısmı) -->
+  <path d="M9 11V8a3 3 0 0 1 6 0v3" stroke="#a78bfa" stroke-width="1.8" stroke-linecap="round" />
+  
+  <!-- Kilit Göbeği / Anahtar Deliği -->
+  <circle cx="12" cy="14.5" r="1" fill="#a78bfa" stroke="none" />
+</svg>

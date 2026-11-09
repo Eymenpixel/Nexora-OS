@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none">
+  <!-- Arka planı tamamen dolduran koyu mor kutu -->
+  <rect width="24" height="24" rx="12" fill="#180b29" />
+  
+  <!-- Dış Parlama -->
+  <circle cx="12" cy="12" r="10.5" fill="none" stroke="#ffffff" stroke-width="0.8" opacity="0.5" />
+  
+  <!-- Ana Çerçeve -->
+  <circle cx="12" cy="12" r="10" fill="#180b29" stroke="#8b5cf6" stroke-width="1.8" />
+  
+  <!-- Güç Simgesi -->
+  <path d="M12 6V12" stroke="#ef4444" stroke-width="2" stroke-linecap="round" />
+  <path d="M7.5 8.5A6 6 0 1 0 16.5 8.5" stroke="#ef4444" stroke-width="2" stroke-linecap="round" />
+</svg>

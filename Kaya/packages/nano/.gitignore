@@ -1,0 +1,5 @@
+*.tar.gz
+nano-*/
+kaya-root/
+*.o
+*.a

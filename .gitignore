@@ -1,0 +1,12 @@
+/kernel/build/
+/kernel/blackbit-auth.img
+/kernel/*.img
+/Kaya/kayp/kayp
+/Kaya/kayp/*.o
+/Kaya/packages/*.kaya
+/build/
+/blackbit-auth.img
+/*.o
+/*.img
+/*.iso
+__pycache__/

@@ -1,0 +1,2 @@
+Welcome to Nexora OS.
+This text file was installed by Kaya Kayp into a temporary test root.

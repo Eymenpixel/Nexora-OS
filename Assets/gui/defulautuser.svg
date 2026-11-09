@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none">
+  <!-- Dıştaki Neon Mor Highlight (R:255, G:0, B:255) -->
+  <circle cx="12" cy="12" r="10.5" fill="none" stroke="#ff00ff" stroke-width="1.2" opacity="0.8" />
+  
+  <!-- Ana Çerçeve ve Koyu Mor Dolgu -->
+  <circle cx="12" cy="12" r="10" fill="#180b29" stroke="#8b5cf6" stroke-width="1.8" />
+  
+  <!-- Profil Kafası (Ortalandı ve Orantılandı) -->
+  <circle cx="12" cy="9" r="2.8" fill="#ffffff" stroke="none" />
+  
+  <!-- Profil Omuzları (Daha Dengeli ve Yuvarlak Hatlı) -->
+  <path d="M6.5 17.5c0-3 2.5-4.5 5.5-4.5s5.5 1.5 5.5 4.5" fill="#ffffff" stroke="none" stroke-linecap="round" />
+</svg>
