@@ -59,3 +59,7 @@ make run
 
 Only install `.kaya` packages from sources you trust. Package installation can execute package-provided actions.
 
+
+## License
+
+Nexora-specific files are licensed under the MIT License; see `LICENSE`. Components that carry their own license or licensing notice retain those terms. In particular, BlackBit has its own license file under `kernel/`, and Kaya component notices under `Kaya/` remain applicable. The user-provided GUI assets in `Assets/gui/` are not relicensed by this notice.
