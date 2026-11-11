@@ -47,6 +47,15 @@ Boot the BlackBit kernel in QEMU:
 make run
 ```
 
+Build a Nexora-branded boot ISO with the logo shown during the GRUB countdown, then start the BlackBit kernel:
+
+```sh
+make nexora-iso
+qemu-system-i386 -cdrom build/nexora.iso -m 128M
+```
+
+The standalone `kernel/build/blackbit.iso` remains BlackBit-branded. The Nexora ISO uses the same BlackBit kernel but adds a Nexora boot splash in GRUB; the GTK splash program itself still requires a Nexora userspace to run.
+
 ## Repository layout
 
 - `kernel/` - BlackBit kernel source, build rules, and security notes.

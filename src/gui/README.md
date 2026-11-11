@@ -11,4 +11,4 @@ g++ -std=c++17 src/gui/splash.cpp -o build/NexoraGUI $(pkg-config --cflags --lib
 ./build/NexoraGUI
 ```
 
-The splash is a GTK host application. The current freestanding BlackBit ISO cannot launch it yet; that requires a userspace, executable loader, graphics support, and a compatible runtime.
+The `make nexora-iso` target uses the same logo asset as a static GRUB splash before starting BlackBit. It does not run this GTK application from the kernel. Launching GTK from Nexora itself requires a userspace, executable loader, graphics support, and a compatible runtime.
